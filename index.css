@@ -104,7 +104,7 @@ header {
     flex-direction: row;
     height: 15vh;
 
-    margin-bottom: 450px;
+    margin-bottom: 450px !important;
 
 }
 
