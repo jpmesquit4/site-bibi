@@ -103,7 +103,7 @@ header {
     display: flex;
     flex-direction: row;
     height: 15vh;
-    
+
     
 
 }
@@ -384,7 +384,7 @@ footer {
         flex-direction: row;
         height: 15vh;
     
-        margin-bottom: 0px;
+        margin-bottom: 0px !important;
     
     }
 
@@ -459,8 +459,8 @@ footer {
     }
 
     .section-center .muie p {
-        font-size: 8px;
-        line-height: 8px;
+        font-size: 5px;
+        line-height: 5px;
         
     }
 
