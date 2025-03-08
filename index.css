@@ -103,9 +103,7 @@ header {
     display: flex;
     flex-direction: row;
     height: 15vh;
-
-    
-
+    margin-bottom: 0px !important;
 }
 
 .section-1 .top-image {
@@ -157,9 +155,7 @@ header {
     margin-top: 50px;
 }
 
-.cats-bibi p {
 
-}
 
 .cats-bibi button {
     background-color: transparent;
