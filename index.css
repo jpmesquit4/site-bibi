@@ -104,6 +104,8 @@ header {
     flex-direction: row;
     height: 15vh;
 
+    margin-bottom: 450px;
+
 }
 
 .section-1 .top-image {
