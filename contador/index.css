@@ -30,10 +30,9 @@ main {
     width: 95%;
 }
 
-video {
-    
-    width: 95%; /* Defina a largura desejada */
-    height: 400px; /* Defina a altura desejada */
+img {
+    width: 50%; /* Defina a largura desejada */
+    height: 760px; /* Defina a altura desejada */
     object-fit: cover; /* Garante que o vídeo preencha a área */
     display: block; /* Evita margens inesperadas */
     border-radius: 5px;
