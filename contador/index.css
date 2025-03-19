@@ -31,8 +31,8 @@ main {
 }
 
 img {
-    width: 50%; /* Defina a largura desejada */
-    height: 760px; /* Defina a altura desejada */
+    width: 100%; /* Defina a largura desejada */
+    height: 370.5px; /* Defina a altura desejada */
     object-fit: cover; /* Garante que o vídeo preencha a área */
     display: block; /* Evita margens inesperadas */
     border-radius: 5px;
