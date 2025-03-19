@@ -37,7 +37,7 @@ img {
     display: block; /* Evita margens inesperadas */
     border-radius: 5px;
     margin-top: 10px;
-    border: 10px solid #5A5338;
+    border: 10px solid #9F0010;
 }
 
 .sessao-3 {
@@ -50,5 +50,5 @@ img {
 }
 
 h2, p {
-    color: #5A5338;
+    color: #9F0010;
 }
