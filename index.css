@@ -67,6 +67,16 @@ header {
     cursor: pointer;
 }
 
+#span-direita2 {
+    background-color: #90715C;
+    transition: 0.3s;
+}
+
+#span-direita2:hover {
+    background-color: #111;
+    cursor: pointer;
+}
+
 .name-cat {
     transition: 0.5s;
     color: white;
@@ -549,10 +559,27 @@ footer {
         border-radius: 100%;
     }
 
+    
+
     .card-cat span img {
         width: 20px;
         height: auto;
      }
+
+    .cats-bibi .name-cat {
+        transition: 0.5s;
+        color: white;
+        z-index: 5;
+    }
+    
+    .cats-bibi .name-cat:hover {
+        background-color: #fff;
+        border: 2px solid #fff;
+        cursor: pointer;
+        color: #111;
+        font-weight: 500;
+        z-index: 5;
+    }
 
     
 
