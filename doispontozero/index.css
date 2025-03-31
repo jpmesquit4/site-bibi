@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/fundo.jpg);
+    background-size: cover;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+    gap: 60px;
+}
+
+#coroa {
+    filter: drop-shadow(20px 10px 3px #00000049);
+    transition: 0.3s;
+}
+
+#coroa:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+    filter: drop-shadow(20px 10px 3px #00000049);
+}
+
+.img-ghibli {
+    width: 93px;
+    height: auto;
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.315);
+    border-radius: 3px;
+    z-index: 1;
+
+    transition: .3s;
+}
+
+.section-2 > #img-1:hover {
+    cursor: pointer;
+    z-index: 5;
+    transform: rotate(0deg);
+    margin-right: 30px;
+}
+
+.section-3 > #left > #img-2:hover {
+    cursor: pointer;
+    z-index: 5;
+    transform: rotate(0deg);
+    margin-left: 15px;
+}
+
+.section-3 > #right > #img-1:hover {
+    cursor: pointer;
+    z-index: 5;
+    transform: rotate(0deg);
+    margin-right: 15px;
+}
+
+.section-6 #img-1:hover {
+    cursor: pointer;
+    z-index: 5;
+    transform: rotate(0deg);
+    margin-right: 30px;
+}
+
+.img-border {
+    border-radius: 2px;
+    position: relative;
+    z-index: 2;
+
+}
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 30px;
+    
+}
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+    margin-bottom: 30px;
+    
+}
+
+.section-2 > #img-1 {
+    position: relative;
+    left: 15px;
+    top: 8px;
+    
+ 
+    transform: rotate(-8.86deg);
+}
+
+.section-3 > #right > #img-1 {
+    position: relative;
+    left: 15px;
+    top: 5px;
+    
+ 
+    transform: rotate(-8.86deg);
+}
+
+.section-3 > #left > #img-2 {
+    position: relative;
+    right: 15px;
+    top: 5px;
+    
+ 
+    transform: rotate(8.86deg);
+}
+
+#left #img-1 {
+    width: 80px;
+}
+
+#right #img-2 {
+   width: 70px;
+}
+
+#left p {
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: 'kinder';
+    text-align: center;
+    width: 150px;
+    position: relative;
+    left: -5px;
+}
+
+.section-4  {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+
+.polaroid-ghibli {
+    position: relative;
+    right: 56px;
+    top: 40px;
+ 
+    transform: rotate(-3deg);
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.polaroid-image {
+    position: absolute;
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.315);
+    z-index: 2;
+}
+
+.section-4 p {
+    position: relative;
+    font-size: 8px;
+    width: 150px;
+    top: 120px;
+    right: 55px;
+    font-family: 'kinder';
+    z-index: 3;
+}
+
+.section-5 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.section-5 p {
+    font-family: 'kinder';
+}
+
+.section-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+
+.section-6 > #img-1 {
+    position: relative;
+    left: 5px;
+    top: 25px;
+    
+ 
+    transform: rotate(-4deg);
+}
