@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: #73000C;
 }
 
 main {
@@ -35,9 +35,9 @@ img {
     height: 370.5px; /* Defina a altura desejada */
     object-fit: cover; /* Garante que o vídeo preencha a área */
     display: block; /* Evita margens inesperadas */
-    border-radius: 5px;
+    border-radius: 12px;
     margin-top: 10px;
-    border: 10px solid #9F0010 !important;
+    border: 5px solid white !important;
 }
 
 .sessao-3 {
@@ -50,5 +50,9 @@ img {
 }
 
 h2, p {
-    color: #9F0010 !important;
+    color: white !important;
+}
+
+h2 {
+    font-weight: 500;
 }
